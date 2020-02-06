@@ -15,11 +15,6 @@ class text extends JFrame implements ActionListener {
     // label to display text 
     static JLabel l;
 
-    // default constructor 
-    text()
-    {
-    }
-
     // main class 
     public static void main(String[] args)
     {
