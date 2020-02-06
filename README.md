@@ -1,4 +1,4 @@
-In this repo all programes are related to "SWING" class
+In this repo all programes are related to "SWING" class.
 
 SWING CONTROLS :-
 1. JFrame
