@@ -1,0 +1,49 @@
+Constructor for JList are :
+
+    JList()             : creates an empty blank list
+    JList(E [ ] l)      : creates an new list with the elements of the array.
+    JList(ListModel d)  : creates a new list with the specified List Model
+    JList(Vector l)     : creates a new list with the elements of the vector
+    
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+-------------------------------    COMMON METHODS   --------------------------------------------------------------
+      
+    
+getSelectedIndex() 	                                returns the index of selected item of the list
+getSelectedValue() 	                                returns the selected value of the element of the list
+setSelectedIndex(int i) 	                          sets the selected index of the list to i
+setSelectionBackground(Color c) 	                  sets the background Color of the list
+setSelectionForeground(Color c) 	                  Changes the foreground color of the list
+
+setListData(E [ ] l) 	                              Changes the elements of the list to the elements of l .
+
+setVisibleRowCount(int v) 	                        Changes the visibleRowCount property
+
+setSelectedValue(Object a, boolean s) 	            selects the specified object from the list.
+setSelectedIndices(int[] i) 	                      changes the selection to be the set of indices specified by the given array.
+
+setListData(Vector l) 	                            constructs a read-only ListModel from a Vector specified.
+
+setLayoutOrientation(int l) 	                      defines the orientation of the list
+
+setFixedCellWidth(int w) 	                          Changes the cell width of list to the value passed as parameter.
+setFixedCellHeight(int h) 	                        Changes the cell height of the list to the value passed as parameter.
+
+isSelectedIndex(int i) 	                            returns true if the specified index is selected, else false.
+
+indexToLocation(int i) 	                            returns the origin of the specified item in the list’s coordinate system.
+
+getToolTipText(MouseEvent e) 	                      returns the tooltip text to be used for the given event.
+
+getSelectedValuesList() 	                          returns a list of all the selected items.
+getSelectedIndices() 	                              returns an array of all of the selected indices, in increasing order
+
+getMinSelectionIndex() 	                            returns the smallest selected cell index, or -1 if the selection is empty.
+getMaxSelectionIndex() 	                            returns the largest selected cell index, or -1 if the selection is empty.
+
+getListSelectionListeners() 	                      returns the listeners of list
+getLastVisibleIndex() 	                            returns the largest list index that is currently visible.
+getDragEnabled() 	                                  returns whether or not automatic drag handling is enable
+
+addListSelectionListener(ListSelectionListener l) 	adds a listSelectionlistener to the list
