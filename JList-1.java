@@ -24,7 +24,7 @@ class solve extends JFrame
         b= new JList(week);
 
         //set a selected index
-        b.setSelectedIndex(2);
+        b.setSelectedIndex(0);
 
         //add list to panel
         p.add(b);
