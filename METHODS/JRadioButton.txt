@@ -1,0 +1,18 @@
+Constructors :-
+
+JRadioButton() 	                          Creates an unselected radio button with no text.
+JRadioButton(String s) 	                  Creates an unselected radio button with specified text.
+JRadioButton(String s, boolean selected) 	Creates a radio button with the specified text and selected status.
+
+
+_______________________________________________________________________________________
+_____________________________Methods___________________________________________________
+_______________________________________________________________________________________
+
+void setText(String s) 	                  It is used to set specified text on button.
+String getText() 	                        It is used to return the text of the button.
+void setEnabled(boolean b) 	              It is used to enable or disable the button.
+void setIcon(Icon b) 	                    It is used to set the specified Icon on the button.
+Icon getIcon() 	                          It is used to get the Icon of the button.
+void setMnemonic(int a) 	                It is used to set the mnemonic on the button.
+void addActionListener(ActionListener a) 	It is used to add the action listener to this object.
