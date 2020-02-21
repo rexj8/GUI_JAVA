@@ -1,0 +1,31 @@
+Constructor :
+
+
+    JCheckBox()                             : creates a new checkbox with no text or icon
+    JCheckBox(Icon i)                       : creates a new checkbox with the icon specified
+    JCheckBox(Icon icon, boolean s)         : creates a new checkbox with the icon specified and the boolean value specifies whether it is selected or not.
+    JCheckBox(String t)                     :creates a new checkbox with the string specified
+    JCheckBox(String text, boolean selected) :creates a new checkbox with the string specified and the boolean value specifies whether it is selected or not.
+    JCheckBox(String text, Icon icon)        :creates a new checkbox with the string and the icon specified.
+    JCheckBox(String text, Icon icon, boolean selected)       : creates a new checkbox with the string and the icon specified and the boolean value specifies whether it is selected or not.
+
+Methods:
+
+    addActionListener(ItemListener l)       : adds item listener to the component
+    itemStateChanged(ItemEvent e)            : abstract function invoked when the state of the item to which listener is applied changes
+    getItem()                              : Returns the component-specific object associated with the item whose state changed
+    getStateChange()                        : Returns the new state of the item. The ItemEvent class defines two states: SELECTED and DESELECTED.
+    getSource()                             : Returns the component that fired the item event.
+
+    setIcon(Icon i)                          : sets the icon of the checkbox to the given icon
+    setText(String s)                        :sets the text of the checkbox to the given text
+    setSelected(boolean b)                  : sets the checkbox to selected if boolean value passed is true or vice versa
+    getIcon()                                 : returns the image of the checkbox
+    getText()                                : returns the text of the checkbox
+    updateUI()                                : resets the UI property with a value from the current look and feel.
+    getUI()                                  : returns the look and feel object that renders this component.
+    paramString()                             : returns a string representation of this JCheckBox.
+    getUIClassID()                           : returns the name of the Look and feel class that renders this component.
+    getAccessibleContext()                    : gets the AccessibleContext associated with this JCheckBox.
+    isBorderPaintedFlat()                    : gets the value of the borderPaintedFlat property.
+    setBorderPaintedFlat(boolean b)           : sets the borderPaintedFlat property,
