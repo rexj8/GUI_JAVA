@@ -1,5 +1,5 @@
 Constructor :
-
+---------------------------------------------------------------------------
 
     JCheckBox()                             : creates a new checkbox with no text or icon
     JCheckBox(Icon i)                       : creates a new checkbox with the icon specified
@@ -9,8 +9,9 @@ Constructor :
     JCheckBox(String text, Icon icon)        :creates a new checkbox with the string and the icon specified.
     JCheckBox(String text, Icon icon, boolean selected)       : creates a new checkbox with the string and the icon specified and the boolean value specifies whether it is selected or not.
 
+--------------------------------------------------------------------------
 Methods:
-
+--------------------------------------------------------------------------
     addActionListener(ItemListener l)       : adds item listener to the component
     itemStateChanged(ItemEvent e)            : abstract function invoked when the state of the item to which listener is applied changes
     getItem()                              : Returns the component-specific object associated with the item whose state changed
