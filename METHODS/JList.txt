@@ -1,4 +1,6 @@
 Constructor for JList are :
+Constructor :
+-----------------------------------------------------------------------------------------------------------------
 
     JList()             : creates an empty blank list
     JList(E [ ] l)      : creates an new list with the elements of the array.
