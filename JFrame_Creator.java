@@ -1,7 +1,9 @@
 import javax.swing.*;
 
 public class GUITest {
+
     public static void main(String[] args) {
+
         SwingUtilities.invokeLater(new Runnable() {                               // used for multithreading  ??????????
             @Override
             public void run() {
